@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Jet-X",
+  "version": "1.0",
+  "description": "Extensão para integração com chatbot de suporte.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "/assets/icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["config.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

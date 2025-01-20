@@ -1,1 +1,1 @@
-# jet-x
+# jet-x extensão para o Google Chrome
